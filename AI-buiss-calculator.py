@@ -33,10 +33,10 @@ def find_discount_price(user_name1):
     price = user_discount/100*user_marked_price
     discount_price = user_marked_price-price
     print(f"Here is your discount price: {discount_price} ")
-    user_feedback = input(f"{user_name1}! If you buy multiple products and each product has same discount so do you like to calculate all product discount price?. Type 'yes' or 'No': ").capitalize()
+    user_feedback = input(f"{user_name1}! If you buy multiple products and each product has same discount, so do you like to calculate all product discount price?. Type 'yes' or 'No': ").capitalize()
 
     if user_feedback == 'Yes':
-        print(f"I am extremely sorry for that {user_name1} 😔! I am in devloping my code at this stage 🏗️. I will promis you to give the full devloped update of this project soon on my github repository.")
+        print(f"I am extremely sorry for that {user_name1} 😔! I am currently developing my code 🏗️ and promise to share the fully developed update of this project soon on my GitHub repository.")
     else:
         print(f"Okay so we finish our this section {user_name1}! Thank you so much for talking with me.😀")
 
@@ -55,9 +55,9 @@ def find_marked_price(user_name2):
 print("Welcome to buis convertor!")
 
 ask_user_name = input("Please enter you name: ").capitalize()
-print(f"Oh! hello {ask_user_name}! Welcome! Please choose the options here which I gave you. \n Here are your options: -\n 1. Convert percentage? \n 2. Find discount price? ? \n 3.Find marked price after dicount?")
+print(f"Oh! hello {ask_user_name}! Welcome! Please select from the options I provided here. \n Here are your options: -\n 1. Convert percentage? \n 2. Find discount price? ? \n 3.Find marked price after dicount?")
 print("\n")
-print(f"What do you want to choose {ask_user_name}? Only type numners")
+print(f"What do you want to choose {ask_user_name}? Only type numbers")
 user_response = input("Choose options: ")
 
 # Conditions : -
@@ -69,3 +69,4 @@ elif user_response == '2':
 elif user_response == '3':
     find_marked_price(ask_user_name)
     
+
