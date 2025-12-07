@@ -5,9 +5,10 @@ A comprehensive Python utility tool designed to help you perform essential busin
 ### ✨ Features
 
 The Business Converter provides three core functionalities:
-1. **📊 Percentage Converter** - Calculate percentages for marks, items, or any quantifiable data
-2. **💰 Discount Calculator** - Compute discount prices with customizable discount percentages
-3. **🏷️ Marked Price Finder** - Determine the original marked price from selling price and discount percentage
+1. **📊 Percentage Converter** - Calculate percentages for marks, items, or any quantifiable data.
+2. **💰 Discount Calculator** - Compute discount prices with customizable discount percentages.
+3. **🏷️ Marked Price Finder** - Determine the original marked price from selling price and discount percentage.
+4. **Studnet marks table genrator and more (new feature ✨)** - It can genrate the table of student marks with table and also calculate the marks.
 
 ### 💻 Usage Example
 ```python
