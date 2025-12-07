@@ -9,6 +9,7 @@ The Business Converter provides three core functionalities:
 2. **💰 Discount Calculator** - Compute discount prices with customizable discount percentages.
 3. **🏷️ Marked Price Finder** - Determine the original marked price from selling price and discount percentage.
 4. **Studnet marks table genrator and more (new feature ✨)** - It can genrate the table of student marks with table and also calculate the marks.
+5. **Other language of this repo will comming soon! or you can also see about in wiki.**
 
 ### 💻 Usage Example
 ```python
