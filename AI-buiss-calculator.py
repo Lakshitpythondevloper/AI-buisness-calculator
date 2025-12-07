@@ -44,7 +44,7 @@ def find_discount_price(user_name1):
 
 def find_marked_price(user_name2):
 
-    print(f"Okay {user_name2}! You choose 4th option. Great!")
+    print(f"Okay {user_name2}! You choose 3rd option. Great!")
     user_selling_price = float(input(f"Tell me {user_name2}, What is your selling price of your product? Tell me: "))
     user_discount2 = float(input(f"Good! {user_name2}! your selling price is {user_selling_price}. Now tell me the discount number of you product or food items. please don't use '%' sign with your discount number! Tell me: "))
 
@@ -138,4 +138,5 @@ elif user_response == '4':
     student_number_calculation(ask_user_name)
 else:
     print("Sorry you type invalid numerical number or type another thing. Try again! ⚠️")
+
 
