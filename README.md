@@ -51,7 +51,4 @@ Project Status: 🏗️ Under Development
 ### License
 MIT License
 
----
 
-### Support & Feedback
-Open issues for suggestions and bug reports.
