@@ -1,6 +1,7 @@
 # Print background : -
 import Logo 
 from prettytable import PrettyTable
+import Youtube
 
 print(r''' 
  ____        _        ____                          _             
@@ -117,11 +118,16 @@ def student_number_calculation(user_name3):
         print(Logo.logo_2)
         print(f"Okay {user_name3}! See you soon again 😀. Have a good day.")
 
+def Youtube_video_download():
+    video_download = Youtube.Youtube()
+    user_input = input("Enter the video URL: ")
+    video_download.download_video(user_input)
+
 # Login/introduction: -
 print("Welcome to buis convertor!")
 
 ask_user_name = input("Please enter you name: ").title()
-print(f"Oh! hello {ask_user_name}! Welcome! Please select from the options I provided here. \n Here are your options: -\n 1. Convert percentage? \n 2. Find discount price? ? \n 3. Find marked price after dicount? \n 4. Student table printing and calculation")
+print(f"Oh! hello {ask_user_name}! Welcome! Please select from the options I provided here. \n Here are your options: -\n 1. Convert percentage? \n 2. Find discount price? ? \n 3. Find marked price after dicount? \n 4. Student table printing and calculation \n 5. Download video form URL of Youtube.")
 print("\n")
 print(f"What do you want to choose {ask_user_name}? Only type numbers! not in key words")
 user_response = input("Choose options: ")
@@ -136,6 +142,8 @@ elif user_response == '3':
     find_marked_price(ask_user_name)
 elif user_response == '4':
     student_number_calculation(ask_user_name)
+elif user_response == '5':
+    Youtube_video_download()
 else:
     print("Sorry you type invalid numerical number or type another thing. Try again! ⚠️")
 
