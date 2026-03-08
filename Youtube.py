@@ -4,7 +4,7 @@ import yt_dlp
 class Youtube:
 
     def __init__(self):
-        self.a = "Hello! Welcome to AI_buisness calaculator! 😉"
+        self.a = "Hello! Welcome to AI_buisness calaculator Youtube Downloader! 😉"
         print(self.a)
 
     def download_video(self, url):

@@ -123,11 +123,15 @@ def Youtube_video_download():
     user_input = input("Enter the video URL: ")
     video_download.download_video(user_input)
 
+def Download_audio_from_Youtube():
+    audio_download = Youtube.Youtube()
+    user_input = input("Enter the video URL: ")
+    audio_download.download_audio(user_input)
 # Login/introduction: -
 print("Welcome to buis convertor!")
 
 ask_user_name = input("Please enter you name: ").title()
-print(f"Oh! hello {ask_user_name}! Welcome! Please select from the options I provided here. \n Here are your options: -\n 1. Convert percentage? \n 2. Find discount price? ? \n 3. Find marked price after dicount? \n 4. Student table printing and calculation \n 5. Download video form URL of Youtube.")
+print("\033[93m"+ f"Oh! hello {ask_user_name}! Welcome! Please select from the options I provided here. \n Here are your options: -\n 1. Convert percentage? \n 2. Find discount price? ? \n 3. Find marked price after dicount? \n 4. Student table printing and calculation \n 5. Download video form URL of Youtube.\n 6. Download audio form URL of Youtube."+"\033[0m")
 print("\n")
 print(f"What do you want to choose {ask_user_name}? Only type numbers! not in key words")
 user_response = input("Choose options: ")
@@ -144,6 +148,8 @@ elif user_response == '4':
     student_number_calculation(ask_user_name)
 elif user_response == '5':
     Youtube_video_download()
+elif user_response == '6':
+    Download_audio_from_Youtube()
 else:
     print("Sorry you type invalid numerical number or type another thing. Try again! ⚠️")
 
