@@ -4,11 +4,13 @@ from prettytable import PrettyTable
 import Youtube
 
 print(r''' 
- ____        _        ____                          _             
-| __ ) _   _(_)___   / ___|___  _ ____   _____ _ __| |_ ___  _ __ 
-|  _ \| | | | / __| | |   / _ \| '_ \ \ / / _ \ '__| __/ _ \| '__|
-| |_) | |_| | \__ \ | |__| (_) | | | \ V /  __/ |  | || (_) | |   
-|____/ \__,_|_|___/  \____\___/|_| |_|\_/ \___|_|   \__\___/|_|   ''')
+██████╗ ██╗   ██╗██╗███████╗     ██████╗ █████╗ ██╗      ██████╗██╗   ██╗██╗      █████╗ ████████╗ ██████╗ ██████╗ 
+██╔══██╗██║   ██║██║██╔════╝    ██╔════╝██╔══██╗██║     ██╔════╝██║   ██║██║     ██╔══██╗╚══██╔══╝██╔═══██╗██╔══██╗
+██████╔╝██║   ██║██║███████╗    ██║     ███████║██║     ██║     ██║   ██║██║     ███████║   ██║   ██║   ██║██████╔╝
+██╔══██╗██║   ██║██║╚════██║    ██║     ██╔══██║██║     ██║     ██║   ██║██║     ██╔══██║   ██║   ██║   ██║██╔══██╗
+██████╔╝╚██████╔╝██║███████║    ╚██████╗██║  ██║███████╗╚██████╗╚██████╔╝███████╗██║  ██║   ██║   ╚██████╔╝██║  ██║
+╚═════╝  ╚═════╝ ╚═╝╚══════╝     ╚═════╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝
+                                                                                                                       ''')
 
 
 def convert_percentage(user_name):
@@ -96,7 +98,7 @@ def student_number_calculation(user_name3):
 
     ask_user_prompt = input("Okay! I print the tables of your all students, now do you want to find the highest or lowest number of students? Type (Yes or No): ").lower()
 
-    if ask_user_prompt =='yes':
+    if ask_user_prompt =='y':
         print("Okay!")
         ask_user_about_higher_or_lower = input("Do you want find high marks of which student or lower marks?: Type(H for higher or L for lower): ").capitalize()
 
